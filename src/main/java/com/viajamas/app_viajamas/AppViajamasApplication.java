@@ -20,7 +20,7 @@ public class AppViajamasApplication {
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/api/v1/**")
 						.allowedMethods("GET","POST","PUT")
-						.allowedOrigins("http://localhost:4200/");
+						.allowedOrigins("http://localhost:4200/","https://angular-viajamas.onrender.com/");
 			}
 		};
 	}
